@@ -1,11 +1,25 @@
-header {
-    background-color: blue;
+/* font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+*/
+
+body {
+    font-family: 'Source Sans Pro', sans-serif
 }
 
-header nav ul li a {
-    color: lime;
+header {
+    background-color: rgb(176, 174, 209);
+}
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    line-height: 150%;
+    font-size: 40px;
+    font-weight: bold;
+    /*font-style: italic;*/
+    letter-spacing: -.5px;
+    text-transform: capitalize;
 }
 
 .link {
-    color: yellow;
+    text-decoration: none;
 }
