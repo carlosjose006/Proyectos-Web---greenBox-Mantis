@@ -1,0 +1,11 @@
+header {
+    background-color: blue;
+}
+
+header nav ul li a {
+    color: lime;
+}
+
+.link {
+    color: yellow;
+}
