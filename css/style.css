@@ -8,11 +8,20 @@ body {
 }
 
 header {
-    background-color: rgb(176, 174, 209);
+    background-color: rgb(242, 242, 247);
+    display: flex;
 }
 
 .header figure {
     margin: 0;
+}
+
+header figure img {
+    width: 120px;
+}
+
+nav {
+    width: 1500px;
 }
 
 h1 {
@@ -35,11 +44,15 @@ h2 {
 ul {
     list-style: none;
     margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
 }
 
 .link {
     text-decoration: none;
-    color: white;
+    color: rgb(17, 17, 17);
+    margin: 10px;
 }
 
 .main {
@@ -78,3 +91,20 @@ ul {
 .proyect-image {
     width: inherit;
 }
+
+
+/*.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    border: 2px solid blue;
+    margin: 10px;
+}*/
