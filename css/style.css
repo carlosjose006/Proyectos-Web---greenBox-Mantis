@@ -41,8 +41,10 @@ h1 {
 
 h2 {
     margin: 0;
-    padding: 30px;
-    padding-left: 20px;
+    margin: 30px 0px;
+    text-transform: uppercase;
+    color: #b3edf0;
+    font-weight: 700;
 }
 
 ul {
@@ -77,8 +79,13 @@ ul a:hover {
     color: #005086;
 }
 
+.proyects {
+    padding: 0px 30px 10px 30px;
+    background-color: rgb(242, 242, 247);
+    p
+}
+
 .proyect {
-    margin: 0px 30px;
     margin-bottom: 20px;
     border: 3px solid rgb(97, 93, 93);
     border-radius: 10px;
@@ -86,7 +93,11 @@ ul a:hover {
     padding: 30px;
     display: flex;
     align-items: center;
-    
+    background-color: antiquewhite;
+}
+
+.proyect-description {
+    text-align: justify;
 }
 
 .proyect-title {
@@ -95,7 +106,6 @@ ul a:hover {
 
 .proyect-left {
     width: 500px;
-    
 }
 
 .proyect-left a {
@@ -104,7 +114,7 @@ ul a:hover {
 }
 
 .proyect-left a:hover {
-    color: #bdd0d1;
+    color: #a4a8a8;
 }
 
 .proyect-contaneir-image {
@@ -115,19 +125,28 @@ ul a:hover {
     width: inherit;
 }
 
-.experience{
-  display: flex;
-  background-color: rgb(208, 245, 245);
-  justify-content: center;
+.experience-title {
+    margin: 20px 0px 20px 30px;
 }
 
-.experience-down{
-  width: 500px;
-  
+.experiences {
+    padding: 0px 30px;
+    display: flex;
+    background-color: rgb(164, 204, 204);
 }
+
+.experience {
+    border: 2px black solid;
+    margin: 0px 20px 40px 0px;
+    width: 480px;
+}
+
+.experience-down {
+    ;
+}
+
 .experience-description {
-  text-align: justify;
-
+    text-align: justify;
 }
 
 .footer {
@@ -138,34 +157,35 @@ ul a:hover {
     background-color: rgb(242, 242, 247);
     ;
 }
-.contact{
-  background-color: rgb(89, 133, 133);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.contact h2{
-  padding: 0;
-}
-.contact-email{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-}
-.contact-email input {
-   
-   border-color: thistle;
-   border-radius: 8px;
-   width: 180px;
-   
-}
-.contact-email button{
-  width: 180px;
-  color: #005086;
-  border-color: #bdd0d1;
-  border-radius: 8px;
 
+.contact {
+    background-color: rgb(89, 133, 133);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact h2 {
+    padding: 0;
+}
+
+.contact-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-email input {
+    border-color: thistle;
+    border-radius: 8px;
+    width: 180px;
+}
+
+.contact-email button {
+    width: 180px;
+    color: #005086;
+    border-color: #bdd0d1;
+    border-radius: 8px;
 }
 
 .footer p {
