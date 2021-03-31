@@ -84,6 +84,9 @@ ul a:hover {
     border-radius: 10px;
     box-shadow: 0px -10px 10px rgb(49, 48, 48);
     padding: 30px;
+    display: flex;
+    align-items: center;
+    
 }
 
 .proyect-title {
@@ -92,6 +95,7 @@ ul a:hover {
 
 .proyect-left {
     width: 500px;
+    
 }
 
 .proyect-left a {
@@ -111,6 +115,21 @@ ul a:hover {
     width: inherit;
 }
 
+.experience{
+  display: flex;
+  background-color: rgb(208, 245, 245);
+  justify-content: center;
+}
+
+.experience-down{
+  width: 500px;
+  
+}
+.experience-description {
+  text-align: justify;
+
+}
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -118,6 +137,35 @@ ul a:hover {
     align-items: center;
     background-color: rgb(242, 242, 247);
     ;
+}
+.contact{
+  background-color: rgb(89, 133, 133);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact h2{
+  padding: 0;
+}
+.contact-email{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.contact-email input {
+   
+   border-color: thistle;
+   border-radius: 8px;
+   width: 180px;
+   
+}
+.contact-email button{
+  width: 180px;
+  color: #005086;
+  border-color: #bdd0d1;
+  border-radius: 8px;
+
 }
 
 .footer p {
