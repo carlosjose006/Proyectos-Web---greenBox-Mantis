@@ -133,14 +133,16 @@ ul a:hover {
     padding: 0px 30px;
     display: flex;
     justify-content: center;
+    
     background-color: rgb(164, 204, 204);
 }
 
 .experience {
-    border: 2px black solid;
-    margin: 0px 20px 40px 0px;
+    
+    margin: 20px 30px 20px 30px;
     width: 480px;
     background-color: #f4fbff;
+    
     
     
     
@@ -162,15 +164,26 @@ ul a:hover {
     margin-top: -30px;
     background-color: rgb(233, 227, 227);
     
+    
     position: relative;
 }
 .experience-down_title{
   padding: 20px 20px;
 }
+.experience-down button{
+ border: #005086 solid 2px;
+ padding: 10px 25px;
+ cursor: pointer;
+ border-radius: 25px;
+ color: #005086;
+ margin: 0px 150px;
+ margin-bottom: 10px;
+}
 
 .experience-description {
     text-align: justify;
     padding: 0px 20px;
+    
 }
 
 .footer {
@@ -187,29 +200,41 @@ ul a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+   
+    
 }
 
 .contact h2 {
     padding: 0;
+    margin-top: 30px;
 }
 
 .contact-email {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .contact-email input {
-    border-color: thistle;
-    border-radius: 8px;
-    width: 180px;
+    border: 1px solid blue;
+    border-radius: 25px;
+    width: 100px;
+    color: #005086;
+    padding: 25px 45px;
+    border: 0;
+    
+    
 }
 
 .contact-email button {
-    width: 180px;
+    margin-top:10px ;
+    margin-bottom: 10px;
     color: #005086;
     border-color: #bdd0d1;
     border-radius: 8px;
+    cursor: pointer;
+    padding: 15px 25px;
 }
 
 .footer p {
