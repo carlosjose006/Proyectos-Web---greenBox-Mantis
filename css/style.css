@@ -132,6 +132,7 @@ ul a:hover {
 .experiences {
     padding: 0px 30px;
     display: flex;
+    justify-content: center;
     background-color: rgb(164, 204, 204);
 }
 
@@ -139,14 +140,37 @@ ul a:hover {
     border: 2px black solid;
     margin: 0px 20px 40px 0px;
     width: 480px;
+    background-color: #f4fbff;
+    
+    
+    
+}
+.experience-container-image{
+  margin: 0px;
+  width: inherit;
+  height: 200px;
+
+}
+.experience-image{
+ width: inherit;
+ height: inherit;
+ 
 }
 
 .experience-down {
-    ;
+    margin: 20px  40px;
+    margin-top: -30px;
+    background-color: rgb(233, 227, 227);
+    
+    position: relative;
+}
+.experience-down_title{
+  padding: 20px 20px;
 }
 
 .experience-description {
     text-align: justify;
+    padding: 0px 20px;
 }
 
 .footer {
