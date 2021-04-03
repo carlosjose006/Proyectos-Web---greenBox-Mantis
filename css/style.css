@@ -129,6 +129,8 @@ ul a:hover {
     margin: 20px 0px 20px 30px;
 }
 
+
+
 .experiences {
     padding: 0px 30px;
     display: flex;
@@ -192,16 +194,31 @@ ul a:hover {
     margin-top: 20px;
     align-items: center;
     background-color: rgb(242, 242, 247);
-    ;
+    
+}
+
+.redes{
+  border: 1px solid rgb(75, 131, 70);
+  display: flex;
+  
+}
+.redes-link{
+width: 100px;
+height: 100px;
+border: 1px solid black;
+}
+
+ .github{
+  background-image: url(../img/gitgub.png);
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
 }
 
 .contact {
     background-color: rgb(89, 133, 133);
     display: flex;
-    flex-direction: column;
-    align-items: center;
-   
-    
+    justify-content: space-between;
+    padding: 0px 30px;
 }
 
 .contact h2 {
@@ -217,24 +234,29 @@ ul a:hover {
 }
 
 .contact-email input {
-    border: 1px solid blue;
-    border-radius: 25px;
-    width: 100px;
+    border: blue;
+    border-style: solid;
+    background-image: url(../img/carta.png);
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+    border-radius: 15px;
     color: #005086;
-    padding: 25px 45px;
-    border: 0;
-    
-    
+    padding: 20px 45px;
+    outline: none; /* Para quitar la sombra que aparecer al darle click al cuadro de texto*/
 }
 
 .contact-email button {
     margin-top:10px ;
     margin-bottom: 10px;
     color: #005086;
-    border-color: #bdd0d1;
+    background-color: transparent;
+    border-color: ##005086;
     border-radius: 8px;
     cursor: pointer;
-    padding: 15px 25px;
+    padding: 10px 25px;
+    outline: none;
 }
 
 .footer p {
