@@ -67,12 +67,24 @@ ul a:hover {
     display: flex;
     align-items: center;
     height: 200px;
-    padding-left: 20px;
+    justify-content: space-between;
+    
     background-color: #ccf2f4;
-    background-image: url(../img/IMG_20200928_142618757.jpg);
+    /*background-image: url(../img/IMG_20200928_142618757.jpg);
     background-size: 300px 300px;
     background-repeat: no-repeat;
-    background-position-x: right;
+    background-position-x: right;*/
+}
+
+.main figure{
+  margin: 0px;
+  width: 300px;
+  height: inherit;
+
+}
+.main img{
+  width: inherit;
+  height: inherit;
 }
 
 .main span {
@@ -136,7 +148,7 @@ ul a:hover {
     display: flex;
     justify-content: center;
     
-    background-color: rgb(164, 204, 204);
+    /*background-color: rgb(164, 204, 204);*/
 }
 
 .experience {
@@ -198,19 +210,42 @@ ul a:hover {
 }
 
 .redes{
-  border: 1px solid rgb(75, 131, 70);
+  
   display: flex;
+  align-items: center;
+  
   
 }
 .redes-link{
-width: 100px;
-height: 100px;
-border: 1px solid black;
+  margin: 0px 5px ;
+width: 50px;
+height: 50px;
+
+
 }
 
  .github{
   background-image: url(../img/gitgub.png);
   background-size: 50px 50px;
+  border-radius: 25px;
+  background-repeat: no-repeat;
+}
+.facebook {
+  background-image: url(../img/facebook.png);
+  background-size: 50px 50px;
+  border-radius: 25px;
+  background-repeat: no-repeat;
+}
+.instagram {
+  background-image: url(../img/instagram.jpg);
+  background-size: 50px 50px ;
+  border-radius: 25px;
+  background-repeat: no-repeat;
+}
+.twitter {
+  background-image: url(../img/twitter.png);
+  background-size: 50px 50px;
+  border-radius: 25px;
   background-repeat: no-repeat;
 }
 
@@ -223,7 +258,8 @@ border: 1px solid black;
 
 .contact h2 {
     padding: 0;
-    margin-top: 30px;
+    margin-top: 10px ;
+    margin-bottom: 10px;
 }
 
 .contact-email {
@@ -252,7 +288,7 @@ border: 1px solid black;
     margin-bottom: 10px;
     color: #005086;
     background-color: transparent;
-    border-color: ##005086;
+    border-color: white;
     border-radius: 8px;
     cursor: pointer;
     padding: 10px 25px;
@@ -264,6 +300,18 @@ border: 1px solid black;
     font-weight: lighter;
     font-style: italic;
     font-variant: small-caps;
+}
+
+.wrapper{
+  
+  margin: 0px auto;
+  display: inherit;
+  flex-direction: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+  height: inherit;
+  width: 900px;
+  flex-wrap: inherit;
 }
 
 
