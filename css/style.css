@@ -68,7 +68,6 @@ ul a:hover {
     align-items: center;
     height: 200px;
     justify-content: space-between;
-    
     background-color: #ccf2f4;
     /*background-image: url(../img/IMG_20200928_142618757.jpg);
     background-size: 300px 300px;
@@ -76,15 +75,15 @@ ul a:hover {
     background-position-x: right;*/
 }
 
-.main figure{
-  margin: 0px;
-  width: 300px;
-  height: inherit;
-
+.main figure {
+    margin: 0px;
+    width: 300px;
+    height: inherit;
 }
-.main img{
-  width: inherit;
-  height: inherit;
+
+.main img {
+    width: inherit;
+    height: inherit;
 }
 
 .main span {
@@ -92,9 +91,12 @@ ul a:hover {
 }
 
 .proyects {
-    padding: 0px 30px 10px 30px;
+    padding: 20px 30px 10px 30px;
     background-color: rgb(242, 242, 247);
-    p
+}
+
+.proyects h2 {
+    margin: 0px 0px 20px;
 }
 
 .proyect {
@@ -141,112 +143,100 @@ ul a:hover {
     margin: 20px 0px 20px 30px;
 }
 
-
-
 .experiences {
     padding: 0px 30px;
     display: flex;
     justify-content: center;
-    
     /*background-color: rgb(164, 204, 204);*/
 }
 
 .experience {
-    
     margin: 20px 30px 20px 30px;
     width: 480px;
     background-color: #f4fbff;
-    
-    
-    
-    
 }
-.experience-container-image{
-  margin: 0px;
-  width: inherit;
-  height: 200px;
 
+.experience-container-image {
+    margin: 0px;
+    width: inherit;
+    height: 200px;
 }
-.experience-image{
- width: inherit;
- height: inherit;
- 
+
+.experience-image {
+    width: inherit;
+    height: inherit;
 }
 
 .experience-down {
-    margin: 20px  40px;
+    margin: 20px 40px;
     margin-top: -30px;
     background-color: rgb(233, 227, 227);
-    
-    
     position: relative;
 }
-.experience-down_title{
-  padding: 20px 20px;
+
+.experience-down_title {
+    padding: 20px 20px;
 }
-.experience-down button{
- border: #005086 solid 2px;
- padding: 10px 25px;
- cursor: pointer;
- border-radius: 25px;
- color: #005086;
- margin: 0px 150px;
- margin-bottom: 10px;
+
+.experience-down button {
+    border: #005086 solid 2px;
+    padding: 10px 25px;
+    cursor: pointer;
+    border-radius: 25px;
+    color: #005086;
+    margin: 0px 150px;
+    margin-bottom: 10px;
 }
 
 .experience-description {
     text-align: justify;
     padding: 0px 20px;
-    
 }
 
 .footer {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
     align-items: center;
     background-color: rgb(242, 242, 247);
-    
 }
 
-.redes{
-  
-  display: flex;
-  align-items: center;
-  
-  
-}
-.redes-link{
-  margin: 0px 5px ;
-width: 50px;
-height: 50px;
-
-
+.redes {
+    display: flex;
+    align-items: center;
 }
 
- .github{
-  background-image: url(../img/gitgub.png);
-  background-size: 50px 50px;
-  border-radius: 25px;
-  background-repeat: no-repeat;
+.redes-link {
+    margin: 0px 5px;
+    width: 50px;
+    height: 50px;
 }
+
+.github {
+    background-image: url(../img/gitgub.png);
+    background-size: 50px 50px;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+}
+
 .facebook {
-  background-image: url(../img/facebook.png);
-  background-size: 50px 50px;
-  border-radius: 25px;
-  background-repeat: no-repeat;
+    background-image: url(../img/facebook.png);
+    background-size: 50px 50px;
+    border-radius: 25px;
+    background-repeat: no-repeat;
 }
+
 .instagram {
-  background-image: url(../img/instagram.jpg);
-  background-size: 50px 50px ;
-  border-radius: 25px;
-  background-repeat: no-repeat;
+    background-image: url(../img/instagram.jpg);
+    background-size: 50px 50px;
+    border-radius: 25px;
+    background-repeat: no-repeat;
 }
+
 .twitter {
-  background-image: url(../img/twitter.png);
-  background-size: 50px 50px;
-  border-radius: 25px;
-  background-repeat: no-repeat;
+    background-image: url(../img/twitter.png);
+    background-size: 50px 50px;
+    border-radius: 25px;
+    background-repeat: no-repeat;
 }
 
 .contact {
@@ -258,7 +248,7 @@ height: 50px;
 
 .contact h2 {
     padding: 0;
-    margin-top: 10px ;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -266,7 +256,6 @@ height: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .contact-email input {
@@ -280,11 +269,12 @@ height: 50px;
     border-radius: 15px;
     color: #005086;
     padding: 20px 45px;
-    outline: none; /* Para quitar la sombra que aparecer al darle click al cuadro de texto*/
+    outline: none;
+    /* Para quitar la sombra que aparecer al darle click al cuadro de texto*/
 }
 
 .contact-email button {
-    margin-top:10px ;
+    margin-top: 10px;
     margin-bottom: 10px;
     color: #005086;
     background-color: transparent;
@@ -302,16 +292,15 @@ height: 50px;
     font-variant: small-caps;
 }
 
-.wrapper{
-  
-  margin: 0px auto;
-  display: inherit;
-  flex-direction: inherit;
-  align-items: inherit;
-  justify-content: inherit;
-  height: inherit;
-  width: 900px;
-  flex-wrap: inherit;
+.wrapper {
+    margin: 0px auto;
+    display: inherit;
+    flex-direction: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    height: inherit;
+    width: 900px;
+    flex-wrap: inherit;
 }
 
 
