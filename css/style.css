@@ -303,6 +303,12 @@ ul a:hover {
     flex-wrap: inherit;
 }
 
+@media screen and (min-width:1024px) {
+    body {
+        border: 1px solid red;
+    }
+}
+
 
 /*.flexbox {
     display: flex;
