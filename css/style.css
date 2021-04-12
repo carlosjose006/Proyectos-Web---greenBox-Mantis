@@ -55,7 +55,8 @@ ul {
 }
 
 ul a:hover {
-    color: #bdd0d1
+    color: #bdd0d1;
+    background-color: #ccf2f4;
 }
 
 .link {
@@ -313,7 +314,35 @@ ul a:hover {
 
 @media screen and (max-width:1024px) {}
 
-@media screen and (max-width:767px) {}
+@media screen and (max-width:767px) {
+    .wrapper {
+        width: auto;
+    }
+    .header {
+        height: auto;
+        display: block;
+    }
+    .header ul {
+        display: block;
+        padding: 0;
+    }
+    .link {
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        padding: 10px 0px;
+    }
+    .header figure {
+        display: flex;
+        justify-content: center;
+        width: auto;
+        margin: 0;
+        padding: 10px 0px;
+    }
+    .header img {
+        width: 120px;
+    }
+}
 
 @media screen and (max-width:480px) {}
 
