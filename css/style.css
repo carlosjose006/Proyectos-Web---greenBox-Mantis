@@ -109,7 +109,7 @@ ul a:hover {
     border: 3px solid rgb(97, 93, 93);
     border-radius: 10px;
     box-shadow: 0px -10px 10px rgb(49, 48, 48);
-    padding: 30px;
+    padding: 4%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -125,7 +125,7 @@ ul a:hover {
 }
 
 .proyect-left {
-    width: 300px;
+    width: 48%;
 }
 
 .proyect-left a {
@@ -138,11 +138,12 @@ ul a:hover {
 }
 
 .proyect-contaneir-image {
-    width: 400px;
+    width: 48%;
+    margin: 0;
 }
 
 .proyect-image {
-    width: inherit;
+    width: 100%;
 }
 
 .experience-title {
@@ -342,9 +343,45 @@ ul a:hover {
     .header img {
         width: 120px;
     }
+    .proyect {
+        display: block;
+        font-size: 16px;
+    }
+    .proyect-left {
+        width: auto;
+    }
+    .proyect-contaneir-image {
+        width: auto;
+    }
+    .proyect-title {
+        font-size: 1.5em;
+    }
+    .proyect-description {
+        font-size: 1em;
+        margin: 1em 0em;
+    }
+    .proyect-language {
+        font-size: 1.1em;
+        margin: 1em 0em;
+    }
+    .proyect-date {
+        font-size: 1em;
+        margin: 1em 0em;
+    }
+    .proyect-link {
+        font-size: 1em;
+        margin: 1em 0em;
+    }
 }
 
-@media screen and (max-width:480px) {}
+@media screen and (max-width:480px) {
+    .proyect {
+        font-size: 14px;
+    }
+    .link {
+        padding: 0.5em;
+    }
+}
 
 @media screen and (max-width:320px) {}
 
