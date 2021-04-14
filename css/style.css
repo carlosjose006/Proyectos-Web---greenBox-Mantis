@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
     margin: 0;
 }
 
@@ -140,6 +141,7 @@ ul a:hover {
 .proyect-contaneir-image {
     width: 48%;
     margin: 0;
+    padding-left: 10px;
 }
 
 .proyect-image {
@@ -354,32 +356,54 @@ ul a:hover {
         width: auto;
     }
     .proyect-title {
-        font-size: 1.5em;
+        font-size: 1em;
     }
     .proyect-description {
-        font-size: 1em;
+        font-size: 0.9em;
         margin: 1em 0em;
     }
     .proyect-language {
-        font-size: 1.1em;
+        font-size: 0.9em;
         margin: 1em 0em;
     }
     .proyect-date {
-        font-size: 1em;
+        font-size: 0.8em;
         margin: 1em 0em;
     }
     .proyect-link {
-        font-size: 1em;
+        font-size: 0.9em;
         margin: 1em 0em;
     }
 }
 
 @media screen and (max-width:480px) {
+    .proyects {
+        padding: 0.5em 0.5em;
+    }
     .proyect {
         font-size: 14px;
     }
     .link {
         padding: 0.5em;
+    }
+    .proyect-title {
+        font-size: 1em;
+    }
+    .proyect-description {
+        font-size: 0.9em;
+        margin: 1em 0em;
+    }
+    .proyect-language {
+        font-size: 0.9em;
+        margin: 1em 0em;
+    }
+    .proyect-date {
+        font-size: 0.8em;
+        margin: 1em 0em;
+    }
+    .proyect-link {
+        font-size: 0.9em;
+        margin: 1em 0em;
     }
 }
 
