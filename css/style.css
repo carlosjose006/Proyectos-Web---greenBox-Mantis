@@ -95,7 +95,7 @@ ul a:hover {
 }
 
 .proyects {
-    padding: 20px 30px 10px 30px;
+    padding: 0px 1.5rem 0px 1.5rem;
     background-color: rgb(242, 242, 247);
     display: flex;
     flex-wrap: wrap;
@@ -153,22 +153,25 @@ ul a:hover {
 }
 
 .experiences {
-    padding: 0px 30px;
+    padding: 0px 1.5rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     /*background-color: rgb(164, 204, 204);*/
 }
 
 .experience {
-    margin: 20px 30px 20px 30px;
-    width: 380px;
-    background-color: #f4fbff;
+    margin: 0px 2% 20px 0px;
+    /*width: 380px;*/
+    width: 48%;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: #baebb5;
 }
 
 .experience-container-image {
     margin: 0px;
-    width: inherit;
+    width: 100%;
     height: 200px;
 }
 
@@ -194,7 +197,7 @@ ul a:hover {
     cursor: pointer;
     border-radius: 25px;
     color: #005086;
-    margin: 0px 150px;
+    margin: 0px 110px;
     margin-bottom: 10px;
 }
 
@@ -348,12 +351,14 @@ ul a:hover {
     .proyect {
         display: block;
         font-size: 16px;
+        box-shadow: 0px -8px 8px rgb(49, 48, 48);
     }
     .proyect-left {
         width: auto;
     }
     .proyect-contaneir-image {
         width: auto;
+        padding-left: 0px;
     }
     .proyect-title {
         font-size: 1em;
@@ -372,7 +377,17 @@ ul a:hover {
     }
     .proyect-link {
         font-size: 0.9em;
-        margin: 1em 0em;
+    }
+    .experiences {
+        display: block;
+        padding: 0 9rem;
+    }
+    .experience {
+        width: 100%;
+    }
+    .experience-down {
+        margin-left: 5.3rem;
+        margin-right: 5.3rem;
     }
 }
 
@@ -382,6 +397,7 @@ ul a:hover {
     }
     .proyect {
         font-size: 14px;
+        box-shadow: 0px -6px 6px rgb(49, 48, 48);
     }
     .link {
         padding: 0.5em;
@@ -405,9 +421,25 @@ ul a:hover {
         font-size: 0.9em;
         margin: 1em 0em;
     }
+    .experiences {
+        padding: 0 4rem;
+    }
+    .experience-down {
+        margin-left: 1.3rem;
+        margin-right: 1.3rem;
+    }
 }
 
-@media screen and (max-width:320px) {}
+@media screen and (max-width:320px) {
+    .experiences {
+        padding: 0 1rem;
+        margin: 0;
+    }
+    .experience-down {
+        margin-left: 1.3rem;
+        margin-right: 1.3rem;
+    }
+}
 
 
 /*.flexbox {
