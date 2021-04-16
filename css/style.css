@@ -102,7 +102,7 @@ ul a:hover {
 }
 
 .proyects h2 {
-    margin: 0px 0px 20px;
+    margin: 20px 0px 20px;
 }
 
 .proyect {
@@ -149,7 +149,7 @@ ul a:hover {
 }
 
 .experience-title {
-    margin: 20px 0px 20px 30px;
+    margin: 20px 0px 20px 0px;
 }
 
 .experiences {
@@ -380,7 +380,7 @@ ul a:hover {
     }
     .experiences {
         display: block;
-        padding: 0 9rem;
+        padding: 0 1.5rem;
     }
     .experience {
         width: 100%;
@@ -388,6 +388,9 @@ ul a:hover {
     .experience-down {
         margin-left: 5.3rem;
         margin-right: 5.3rem;
+    }
+    .experience-title {
+        margin: 20px 0px 20px 1.5rem;
     }
 }
 
