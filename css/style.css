@@ -394,6 +394,15 @@ ul a:hover {
     }
 }
 
+@media screen and (max-width:532px) {
+    .contact {
+        justify-content: center;
+    }
+    .redes {
+        margin-bottom: 0.6rem;
+    }
+}
+
 @media screen and (max-width:480px) {
     .proyects {
         padding: 0.5em 0.5em;
