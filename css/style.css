@@ -392,6 +392,9 @@ ul a:hover {
     .experience-title {
         margin: 20px 0px 20px 1.5rem;
     }
+    .footer p {
+        margin-left: 2rem;
+    }
 }
 
 @media screen and (max-width:532px) {
@@ -450,6 +453,12 @@ ul a:hover {
     .experience-down {
         margin-left: 1.3rem;
         margin-right: 1.3rem;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .footer p {
+        margin: 0.2rem;
     }
 }
 
